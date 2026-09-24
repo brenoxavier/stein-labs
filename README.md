@@ -2,10 +2,13 @@
 
 ## Download
 
-**[Get the latest Stein Loader installer](https://github.com/brenoxavier/stein-labs/releases/latest)** — one Windows
-file that carries its own Java 25, the engine and the loader. Play Minecraft 1.8.9 once in the launcher first, run
-the installer, then pick the profile **Stein Loader 1.8.9**. Nothing from Mojang is inside it: it patches the
-`1.8.9.jar` that is already on your machine, on your machine.
+**[Get the latest Stein Loader installer](https://github.com/brenoxavier/stein-labs/releases/latest)** — one file
+that carries its own Java 25, the engine and the loader. It is a `.jar`: double-click it (or `java -jar
+SteinLoader-Installer.jar`) with Java 17 or newer on your machine. No Java at all? Take the
+`SteinLoader-Installer-windows.zip` from the same release, unzip it and run the `.exe` inside.
+
+Play Minecraft 1.8.9 once in the launcher first, run the installer, then pick the profile **Stein Loader 1.8.9**.
+Nothing from Mojang is inside it: it patches the `1.8.9.jar` that is already on your machine, on your machine.
 
 The **mods** are in the same release and are installed by hand: drop the `.steinmod` files you want into the `mods`
 folder of your `.minecraft` (the installer never adds or removes mods). They are turned on and off in the Stein
