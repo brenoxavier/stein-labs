@@ -5,8 +5,20 @@
 **[Get the latest Stein Loader installer](https://github.com/brenoxavier/stein-labs/releases/latest)** — one Windows
 file that carries its own Java 25, the engine and the loader. Play Minecraft 1.8.9 once in the launcher first, run
 the installer, then pick the profile **Stein Loader 1.8.9**. Nothing from Mojang is inside it: it patches the
-`1.8.9.jar` that is already on your machine, on your machine. Every release is listed under
-[Releases](https://github.com/brenoxavier/stein-labs/releases).
+`1.8.9.jar` that is already on your machine, on your machine.
+
+The **mods** are in the same release and are installed by hand: drop the `.steinmod` files you want into the `mods`
+folder of your `.minecraft` (the installer never adds or removes mods). They are turned on and off in the Stein
+Loader menu.
+
+- [HUD](https://github.com/brenoxavier/stein-labs/releases/latest/download/HUD.steinmod) — customizable HUD,
+  minimap and the Tab list
+- [Connect](https://github.com/brenoxavier/stein-labs/releases/latest/download/Connect.steinmod) — accounts,
+  reconnect and SOCKS5 proxy
+- [Combat](https://github.com/brenoxavier/stein-labs/releases/latest/download/Combat.steinmod) — clans, allies,
+  nearest enemy
+
+Every release is listed under [Releases](https://github.com/brenoxavier/stein-labs/releases).
 
 ## stein.json
 
