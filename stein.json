@@ -1,4 +1,8 @@
 {
   "discord": "https://discord.gg/MEHE9b5bjj",
-  "servers": []
+  "servers": [],
+  "latest": {
+    "version": "0.1.8",
+    "url": "https://github.com/brenoxavier/stein-labs/releases/latest"
+  }
 }

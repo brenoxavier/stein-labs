@@ -19,6 +19,7 @@ next time they start the game — no new Loader release and no new installer.
   "servers": [
     { "name": "Stein Labs", "ip": "play.example.com" }
   ],
+  "latest": { "version": "0.1.8", "url": "https://github.com/brenoxavier/stein-labs/releases/latest" },
   "news": {
     "id": "2026-09-lens",
     "title": { "en_US": "What is new in Stein Lens", "pt_BR": "Novidade no Stein Lens" },
@@ -38,6 +39,9 @@ next time they start the game — no new Loader release and no new installer.
   first in the player's list, under a "Recommended servers" divider. **Nothing is ever deleted**: servers the
   player already had stay where they are, and one that is already in the list (same address) is only moved to the
   top and renamed to the name given here.
+- **`latest`** — the version that is published and where to get it. The game compares it with the version the
+  installer wrote on that machine and, when this one is newer, shows a balloon in the corner of the main menu with
+  a click that opens `url`. Bump `version` right after publishing a release, or nobody is told about it.
 - **`news`** — a small balloon in the corner of the main menu. `id` is what tells one message from the next: once a
   player closes a message, that `id` never comes back, so give every new message a new `id`. `title` and `text`
   are shown (the text is cut after three lines), and `url` is optional — with it, clicking the balloon opens the
