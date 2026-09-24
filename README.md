@@ -11,8 +11,11 @@ next time they start the game — no new Loader release and no new installer.
   ],
   "news": {
     "id": "2026-09-lens",
-    "title": "What's new in Stein Lens",
-    "text": "Entity shadows and moonlight are in Video settings now.",
+    "title": { "en_US": "What is new in Stein Lens", "pt_BR": "Novidade no Stein Lens" },
+    "text": {
+      "en_US": "Entity shadows and moonlight are in Video settings now.",
+      "pt_BR": "Sombras de entidades e luar chegaram nas Configuracoes de video."
+    },
     "url": "https://discord.gg/xxxxxxx"
   }
 }
@@ -29,6 +32,10 @@ next time they start the game — no new Loader release and no new installer.
   player closes a message, that `id` never comes back, so give every new message a new `id`. `title` and `text`
   are shown (the text is cut after three lines), and `url` is optional — with it, clicking the balloon opens the
   browser. Only `https` links to Discord or GitHub are accepted.
+
+  `title` and `text` each take either **one string**, shown to everyone, or **one entry per game language**
+  (`{"en_US": "...", "pt_BR": "..."}`). Players whose language is not listed read the `en_US` one, so always write
+  that one. The language is picked as the balloon is drawn, so switching the game language switches the message.
 
 Empty values (`""`, `[]`, or no `news` at all) mean "there is nothing": the Loader carries on with no Discord
 button, without touching the multiplayer list and with no balloon.
