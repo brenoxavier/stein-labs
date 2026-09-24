@@ -1,5 +1,15 @@
 # Stein Labs
 
+## Download
+
+**[Get the latest Stein Loader installer](https://github.com/brenoxavier/stein-labs/releases/latest)** — one Windows
+file that carries its own Java 25, the engine and the loader. Play Minecraft 1.8.9 once in the launcher first, run
+the installer, then pick the profile **Stein Loader 1.8.9**. Nothing from Mojang is inside it: it patches the
+`1.8.9.jar` that is already on your machine, on your machine. Every release is listed under
+[Releases](https://github.com/brenoxavier/stein-labs/releases).
+
+## stein.json
+
 Public data that the **Stein Loader** reads on startup, in `stein.json`. Editing it here applies to everyone the
 next time they start the game — no new Loader release and no new installer.
 
