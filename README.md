@@ -14,6 +14,8 @@ The **mods** are in the same release and are installed by hand: drop the `.stein
 folder of your `.minecraft` (the installer never adds or removes mods). They are turned on and off in the Stein
 Loader menu.
 
+- [Mouse](https://github.com/brenoxavier/stein-labs/releases/latest/download/Mouse.steinmod) — inventory gestures:
+  hold Shift and drag to transfer stacks, scroll a slot to move items
 - [HUD](https://github.com/brenoxavier/stein-labs/releases/latest/download/HUD.steinmod) — customizable HUD,
   minimap and the Tab list
 - [Connect](https://github.com/brenoxavier/stein-labs/releases/latest/download/Connect.steinmod) — accounts,
